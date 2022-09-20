@@ -1,0 +1,64 @@
+{
+    "name": "aura/intl",
+    "type": "aura-package",
+    "description": "The Aura.Intl package provides internationalization (I18N) tools, specifically\npackage-oriented per-locale message translation.",
+    "keywords": [
+        "intl",
+        "i18n",
+        "internationalization",
+        "l10n",
+        "localization",
+        "g11n",
+        "globalization"
+    ],
+    "homepage": "http://auraphp.com/Aura.Intl",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Aura.Intl Contributors",
+            "homepage": "https://github.com/auraphp/Aura.Intl/contributors"
+        },
+        {
+            "name": "nes",
+            "email": "ne@gmail.com",
+            "homepage": "http://one.com"
+        },
+        {
+            "name": "rrel",
+            "email": "cal@eli.com"
+        },
+        {
+            "name": "Mapthegod",
+            "email": "egod@gmail.com"
+        },
+        {
+            "name": "Jos\u00e9 Lorenzo Rodr\u00edguez",
+            "email": "ap@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "aura/installer-default": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aura\\Intl": "src/"
+        },
+        "psr-4": {
+            "Aura\\Intl\\_Config\\": "config/"
+        }
+    },
+    "extra": {
+        "aura": {
+            "type": "library",
+            "config": {
+                "common": "Aura\\Intl\\_Config\\Common"
+            }
+        },
+        "branch-alias": {
+            "dev-develop": "1.1.x-dev"
+        }
+    },
+    "version": "1.1.1",
+    "time": "2014-08-24"
+}
